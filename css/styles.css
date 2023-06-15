@@ -1,3 +1,10 @@
+:root {
+   --main-dark-cl: #2E2F42;
+   --main-text-cl: #434455;
+   
+
+}
+
 /* Common styles */
 .body {
     font-family: Roboto; sans-serif;
@@ -54,6 +61,7 @@
 
 .header-address-list {
     list-style-type: none;
+    font-style: normal;
 }
 
 .header-address-item {}
@@ -98,13 +106,14 @@
 }
 
 .herro-button {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 16px 32px;
-    gap: 10px;
     background-color: #4D5AE5;
     color: #FFFFFF;
+
+}
+
+.herro-button:hover,
+.herro-button:focus {
+    background: #404BBF;
 }
 
 
@@ -132,7 +141,6 @@
 }
 
 .benefits-description {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -186,7 +194,9 @@
     color: #2E2F42;
 }
 
-.team-list {}
+.team-list {
+    list-style-type: none;
+}
 
 .team-item {}
 
@@ -234,4 +244,57 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+}
+
+
+
+.section {}
+
+.navigation {}
+
+.navigation-list {
+    list-style-type: none;
+}
+
+.navigation-button:hover,
+.navigation-button:focus {
+    background: #404BBF;
+    color: #FFFFFF;
+}
+.navigation-item {}
+
+
+.navigation-button {
+    background: #F4F4FD;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+}
+
+.img-list {
+    list-style-type: none;
+}
+
+.img-item {}
+
+.img-navigation {}
+
+.img-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.img-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
