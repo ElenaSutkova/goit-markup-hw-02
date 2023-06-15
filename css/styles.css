@@ -1,0 +1,152 @@
+/* Common styles */
+.body {
+    font-family: Roboto; sans-serif;   
+    background-color: #FFFFFF;
+}
+
+
+/* header styles */
+
+.header {
+}
+
+.header-nav {
+}
+
+.header-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #2E2F42;
+}
+
+.accent {
+    color: #4D5AE5;
+}
+
+.header-list {
+    list-style-type: none;
+}
+
+.header-item {
+}
+
+.header-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #2E2F42;
+    
+    
+}
+
+.header-address {}
+
+.header-address-list {
+    list-style-type: none;
+}
+
+.header-address-item {}
+
+.header-address-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #434455
+}
+
+
+
+
+
+/* main styles */
+
+.main {}
+
+
+
+
+/* hero styles */
+
+.hero {}
+
+.hero-title {}
+
+.herro-button {}
+
+
+
+
+
+
+/* benefits styles */
+
+.benefits {}
+
+.benefits-title {}
+
+.benefits-list {}
+
+.benefits-item {}
+
+.benefits-subtitle {}
+
+.benefits-description {}
+
+
+
+
+
+/* work styles */
+
+.work {}
+
+.work-title {}
+
+.work-list {}
+
+.work-item {}
+
+.work-img {}
+
+
+
+
+
+/* team styles */
+
+.team {}
+
+.team-title {}
+
+.team-list {}
+
+.team-item {}
+
+.team-img {}
+
+.team-subtitle {}
+
+.team-description {}
+
+
+
+
+
+/* footer styles */
+
+.footer {}
+
+.footer-link {}
+
+.footer-description {}
