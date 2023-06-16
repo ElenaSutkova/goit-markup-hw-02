@@ -15,7 +15,7 @@
   |============================
 */
 .body {
-    font-family: "Roboto"; sans-serif;
+    font-family: "Roboto", sans-serif;
     color: var(--main-text-cl);
     background-color: var(--main-white-cl);
 }
@@ -35,7 +35,7 @@
 }
 
 .link-logo {
-    font-family: 'Raleway'; sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -133,7 +133,7 @@
 .herro-button {
     background-color: var(--main-brand-cl); 
     color: var(--main-white-cl);
-    font-family: "Roboto"; sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04;
@@ -287,7 +287,7 @@ list-style-type: none;
 }
 
 .footer-link {
-    font-family: "Raleway"; sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -342,7 +342,7 @@ list-style-type: none;
 
 
 .navigation-button {
-    font-family: "Roboto"; sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color: var(--main-light-cl);
     font-weight: 500;
     font-size: 16px;
