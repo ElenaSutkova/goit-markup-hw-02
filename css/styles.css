@@ -25,6 +25,10 @@ body {
     color: #f4f4fd;
 }
 
+.accent-header {
+    color: #2e2f42;
+}
+
 
 
 /**
@@ -141,7 +145,7 @@ text-decoration: none;
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1,07em;
+    line-height: 1,07;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--main-white-cl);
@@ -263,9 +267,11 @@ list-style-type: none;
     color: var(--main-dark-cl);
 }
 
+.list {
+background-color: #FFFFFF;
+}
 .team-list {
-    list-style-type: none;
-    background-color: #FFFFFF;
+    list-style-type: none; 
 }
 
 .team-item {}
