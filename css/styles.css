@@ -386,6 +386,7 @@ list-style-type: none;
 */
 .img-list {
     list-style-type: none;
+    cursor: pointer
 }
 
 .img-item {}
