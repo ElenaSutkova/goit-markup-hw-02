@@ -269,10 +269,11 @@ list-style-type: none;
 
 .list {
     list-style-type: none;
+    background-color: #FFFFFF;
 }
 .team-list {
     list-style-type: none; 
-    background-color: #FFFFFF;
+    
 }
 
 .team-item {}
