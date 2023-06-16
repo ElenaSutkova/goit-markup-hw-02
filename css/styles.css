@@ -1,7 +1,12 @@
 :root {
    --main-dark-cl: #2E2F42;
    --main-text-cl: #434455;
-   
+   --main-white-cl: #FFFFFF;
+   --main-brand-cl: #4D5AE5;
+   --main-interaction-cl: #404BBF;
+   --main-light-cl: #F4F4FD;
+
+
 
 }
 
@@ -9,7 +14,7 @@
 .body {
     font-family: Roboto; sans-serif;
     font-style: normal;
-    background-color: #FFFFFF;
+    background-color: var(--main-white-cl);
 }
 
 
@@ -28,11 +33,11 @@
     line-height: 1.7;
     letter-spacing: 0.03em;
     text-decoration: none;
-    color: #2E2F42;
+    color: var(--main-dark-cl);
 }
 
 .accent {
-    color: #4D5AE5;
+    color: var(--main-brand-cl);
 }
 
 .header-list {
@@ -49,12 +54,12 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: #2E2F42;
+    color: var(--main-dark-cl);
 }
 
 .header-link:hover,
 .header-link:focus {
-    color: #404BBF;
+    color: var(--main-interaction-cl);
 }
 
 .header-address {}
@@ -72,12 +77,12 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: #434455
+    color: var(--main-text-cl);
 }
 
 .header-address-link:hover,
 .header-address-link:focus {
-    color: #404BBF;
+    color: var(--main-interaction-cl);
 }
 
 
@@ -93,7 +98,7 @@
 /* hero styles */
 
 .hero {
-    background: #2E2F42;
+    background: var(--main-dark-cl);
 }
 
 .hero-title {
@@ -102,18 +107,18 @@
     line-height: 1,05;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--main-white-cl);
 }
 
 .herro-button {
-    background-color: #4D5AE5;
-    color: #FFFFFF;
+    background-color: var(--main-accent-logo-cl);
+    color: var(--main-white-cl);
 
 }
 
 .herro-button:hover,
 .herro-button:focus {
-    background: #404BBF;
+    background: var(--main-interaction-cl);
 }
 
 
@@ -137,14 +142,14 @@
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--main-dark-cl);
 }
 
 .benefits-description {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--main-text-cl);
 }
 
 
@@ -162,7 +167,7 @@
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--main-dark-cl);
 }
 
 .work-list {}
@@ -181,7 +186,7 @@
 /* team styles */
 
 .team {
-    background: #F4F4FD;
+    background: var(--main-light-cl);
 }
 
 .team-title {
@@ -191,7 +196,7 @@
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--main-dark-cl);
 }
 
 .team-list {
@@ -207,7 +212,7 @@
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--main-dark-cl);
 }
 
 .team-description {
@@ -215,7 +220,7 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--main-text-cl);
 }
 
 
@@ -225,7 +230,7 @@
 /* footer styles */
 
 .footer {
-    background: #2E2F42;
+    background: var(--main-dark-cl);
 }
 
 .footer-link {
@@ -235,7 +240,7 @@
     line-height: 1.7;
     letter-spacing: 0.03em;
     text-decoration: none;
-    color: #F4F4FD;
+    color: var(--main-light-cl);
 }
 
 .footer-description {
@@ -243,7 +248,7 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #F4F4FD;
+    color: var(--main-light-cl);
 }
 
 
@@ -258,14 +263,14 @@
 
 .navigation-button:hover,
 .navigation-button:focus {
-    background: #404BBF;
-    color: #FFFFFF;
+    background: var(--main-interaction-cl);
+    color: var(--main-white-cl);
 }
 .navigation-item {}
 
 
 .navigation-button {
-    background: #F4F4FD;
+    background: var(--main-light-cl);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -273,7 +278,7 @@
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
-    color: #4D5AE5;
+    color: var(--main-brand-cl);
 }
 
 .img-list {
@@ -289,12 +294,12 @@
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--main-dark-cl);
 }
 
 .img-description {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--main-text-cl);
 }
