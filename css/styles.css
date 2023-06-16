@@ -254,7 +254,7 @@ list-style-type: none;
 */
 
 .team {
-    background-color: #FFFFFF;
+    background: var(--main-light-cl);
 }
 
 .team-title {
@@ -269,14 +269,14 @@ list-style-type: none;
 
 .list {
     list-style-type: none;
-    
 }
 .team-list {
     list-style-type: none; 
-    
 }
 
-.team-item {}
+.team-item {
+    background-color: #FFFFFF;
+}
 
 .team-img {}
 
