@@ -35,13 +35,17 @@ body {
 .header-nav {
 }
 
+.link {
+text-decoration: none;
+}
+
+
 .link-logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-decoration: none;
     text-transform: uppercase;
     color: var(--main-brand-cl);
     
@@ -50,6 +54,12 @@ body {
 .accent {
     color: var(--main-dark-cl);
 }
+
+
+.list {
+list-style: none;
+}
+
 
 .header-list {
     list-style-type: none;
