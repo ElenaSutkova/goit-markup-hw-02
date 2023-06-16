@@ -69,12 +69,17 @@ list-style: none;
 
 }
 
+
+.link {
+text-decoration: none;
+}
+
+
 .header-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-decoration: none;
     color: var(--main-dark-cl);
 }
 
@@ -83,11 +88,12 @@ list-style: none;
     color: var(--main-interaction-cl);
 }
 
-.header-address {}
+.header-address {
+    font-style: normal
+}
 
 .header-address-list {
     list-style-type: none;
-    font-style: normal;
 }
 
 .header-address-item {}
