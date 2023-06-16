@@ -14,7 +14,8 @@
   | Common styles
   |============================
 */
-.body {
+
+body {
     font-family: "Roboto", sans-serif;
     color: var(--main-text-cl);
     background-color: var(--main-white-cl);
