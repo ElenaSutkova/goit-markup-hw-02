@@ -54,10 +54,16 @@ ol {
 }
 
 .container {
-    width: 1158px;
+    max-width: 1158px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.page-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -175,7 +181,9 @@ text-decoration: none;
   |============================
 */
 
-.main {}
+.main {
+    flex-grow: 1;
+}
 
 
 
@@ -201,10 +209,10 @@ text-decoration: none;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--main-white-cl);
-    margin-bottom: 48px;
     width: 496px;
     height: 120px;
     margin: 0 auto;
+    margin-bottom: 48px;
     }
 
 .herro-button {
@@ -363,15 +371,20 @@ margin: 0 auto;
 
 .team-img {}
 
+.team-text {
+    padding: 32px 16px;
+    text-align: center;
+}
+
+
 .team-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--main-dark-cl);
-    padding-top: 32px;
-    padding-bottom: 8px;
-    
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-description {
@@ -409,6 +422,7 @@ margin: 0 auto;
     text-transform: uppercase;
     text-decoration: none;
     color: var(--main-brand-cl);
+    padding-top: 100px;
 }
 
 
@@ -419,6 +433,9 @@ margin: 0 auto;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-light-cl);
+    width: 264px;
+    height: 72px;
+    margin-top: 16px;
 }
 
 
