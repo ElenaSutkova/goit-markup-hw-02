@@ -528,7 +528,8 @@ margin: 0 auto;
 
 .img-text {
     padding: 32px 16px;
-    
+    border: 1px solid var(--main-cornflower);
+    border-top: none;
 }
 
 .img-navigation {
