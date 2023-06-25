@@ -5,6 +5,7 @@
    --main-brand-cl: #4D5AE5;
    --main-interaction-cl: #404BBF;
    --main-light-cl: #F4F4FD;
+   --main-cornflower: #E7E9FC
 }
 
 
@@ -77,12 +78,14 @@ ol {
 
 .header {
     padding: 24px 0;
+    border-bottom: 1px solid var(--cornflower, #E7E9FC);
 }
 
 .header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 
@@ -459,8 +462,19 @@ margin: 0 auto;
   |============================
 */
 
+.portfolio-title {
+    display: none;
+}
+
 .navigation-list {
-    list-style-type: none;
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+    padding-top: 96px;
+    padding-bottom: 72px;
+    justify-content: center;
+    
+    
 }
 
 .navigation-button:hover,
@@ -469,7 +483,10 @@ margin: 0 auto;
     color: var(--main-white-cl);
     cursor: pointer;
 }
-.navigation-item {}
+.navigation-item {
+
+}
+
 
 
 .navigation-button {
@@ -481,6 +498,11 @@ margin: 0 auto;
     text-align: center;
     letter-spacing: 0.04em;
     color: var(--main-brand-cl);
+    border-radius: 4px;
+    border: none;
+    padding: 12px 24px;
+    
+
 }
 
 
@@ -493,12 +515,25 @@ margin: 0 auto;
 */
 .img-list {
     list-style-type: none;
-    cursor: pointer
+    cursor: pointer;
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
-.img-item {}
+.img-item {   
+   
+}
 
-.img-navigation {}
+.img-text {
+    padding: 32px 16px;
+    
+}
+
+.img-navigation {
+    
+}
 
 .img-title {
     font-weight: 500;
@@ -506,6 +541,7 @@ margin: 0 auto;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--main-dark-cl);
+    padding-bottom: 8px;
 }
 
 .img-description {
